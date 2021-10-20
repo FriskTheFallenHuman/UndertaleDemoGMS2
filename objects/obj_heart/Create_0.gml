@@ -1,0 +1,24 @@
+global.sp = global.asp
+movement=0
+hgo=0
+vgo=0
+global.bmenuno=0
+global.bmenucoord[0]=0
+global.bmenucoord[1]=0
+global.bmenucoord[2]=0
+global.bmenucoord[3]=0
+global.bmenucoord[4]=0
+global.bmenucoord[6]=0
+global.bmenucoord[7]=0
+global.bmenucoord[8]=0
+global.bmenucoord[9]=0
+global.bmenucoord[10]=0
+global.hurtanim[0]=0
+global.hurtanim[1]=0
+global.hurtanim[2]=0
+global.hurtanim[3]=0
+global.myfight=0
+global.mnfight=0
+global.xpreward[3]=0
+global.goldreward[3]=0
+

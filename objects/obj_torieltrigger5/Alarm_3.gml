@@ -1,0 +1,2 @@
+global.interact=0
+
