@@ -17,8 +17,8 @@
   "width": 224,
   "height": 183,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Backgrounds",
+    "path": "texturegroups/Backgrounds",
   },
   "swatchColours": null,
   "gridX": 0,
