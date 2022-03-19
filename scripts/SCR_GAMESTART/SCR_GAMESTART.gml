@@ -172,9 +172,4 @@ function SCR_GAMESTART() {
 	global.entrance=0
 	global.currentsong=" "
 	global.typer=5
-
-	global.debug=1
-
-
-
 }

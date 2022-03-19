@@ -1,10 +1,6 @@
-
-if global.phasing=0 then
+if (global.phasing == 0)
 {
-x = xprevious
-y = yprevious
-
-moving = 0
+    x = xprevious
+    y = yprevious
+    moving = false
 }
-
-

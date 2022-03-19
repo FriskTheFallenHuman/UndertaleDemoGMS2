@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_ruins1","path":"sprites/bg_ruins1/bg_ruins1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bg_ruins1",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_parlor","path":"sprites/bg_parlor/bg_parlor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bg_parlor",
     "tags": [],
     "resourceType": "GMSequence",

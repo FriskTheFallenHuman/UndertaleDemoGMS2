@@ -1,35 +1,47 @@
-if keyboard_check(vk_left) = false
-if keyboard_check(vk_right) = false
-if keyboard_check(vk_down) = false
-if keyboard_check(vk_up) = false then
+if (obj_time.left == 0)
+{
+    if (obj_time.right == 0)
     {
-    moving = 0
+        if (obj_time.down == 0)
+        {
+            if (obj_time.up == 0)
+                moving = false
+        }
     }
-    
-if global.interact > 0 then
-  {
-  moving = 0
-  movement = 0
-  }
- else
- movement = 1
+}
 
-if xprevious != x or yprevious != y then moving = 1
-    
-if moving = 0 then
-  {
-  image_speed = 0
-  image_index = 0
-  }
+if (global.interact > 0)
+{
+    moving = false
+    movement = 0
+}
+else
+    movement = 1
 
-if global.interact=0
-if moving=1 then global.encounter+=1
+if (abs((xprevious - x)) > 0.01 || abs((yprevious - y)) > 0.01)
+    moving = true
 
+if (moving == false)
+{
+    image_speed = 0
+    image_index = 0
+}
 
-  //camera follows ya
-  if instance_exists(obj_shaker)=false then
-  {
-__view_set( e__VW.XView, 0, round(x - __view_get( e__VW.WView, 0 )/2 + sprite_width/2) )
-__view_set( e__VW.YView, 0, round(y - __view_get( e__VW.HView, 0 )/2 + sprite_height/2) )
-  }
+if (global.interact == 0)
+{
+    if (moving == true)
+        global.encounter += 1
+}
 
+if (cutscene == false)
+{
+	//camera follows ya
+    if (!instance_exists(obj_shaker))
+    {
+        __view_set(e__VW.XView, 0, round(((x - (__view_get(e__VW.WView, 0) / 2)) + 10)))
+        __view_set(e__VW.YView, 0, round(((y - (__view_get(e__VW.HView, 0) / 2)) + 10)))
+    }
+}
+
+//with (obj_backgrounder_parent)
+//    event_user(0)

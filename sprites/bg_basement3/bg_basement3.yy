@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_basement3","path":"sprites/bg_basement3/bg_basement3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bg_basement3",
     "tags": [],
     "resourceType": "GMSequence",

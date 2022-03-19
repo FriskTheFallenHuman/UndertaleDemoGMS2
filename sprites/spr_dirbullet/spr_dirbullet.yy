@@ -199,7 +199,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dirbullet","path":"sprites/spr_dirbullet/spr_dirbullet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

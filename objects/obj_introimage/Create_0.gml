@@ -7,7 +7,6 @@ global.typer=11
 global.faceemotion=0
 global.facechoice=0
 global.msc=0
-instance_create(0,0,obj_introtangle)
 fadercreator=0
 skip=0
 global.msg[0]="Long ago^1, two races&ruled over Earth^1:&HUMANS and MONSTERS^5. \\E1 ^1 %"
