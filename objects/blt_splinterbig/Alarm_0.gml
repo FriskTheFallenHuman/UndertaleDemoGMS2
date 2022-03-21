@@ -1,10 +1,10 @@
-i=0
-while(i<9)
-  {
-  blt=instance_create(x+3,y+3,blt_splinter)
-  blt.dmg=dmg
-  blt.direction=i*40
-  i+=1
-  }
+for (i = 0; i < 9; i += 1)
+{
+    blt = instance_create((x + 3), (y + 3), blt_splinter)
+	with(blt)
+	{
+	    dmg = other.dmg
+	    direction = (i * 40)
+	}
+}
 instance_destroy()
-

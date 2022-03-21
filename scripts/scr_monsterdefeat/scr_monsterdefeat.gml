@@ -20,12 +20,9 @@ function scr_monsterdefeat() {
 	global.goldreward[3]+=floor(global.goldreward[myself]*((global.monstermaxhp[myself]-global.monsterhp[myself])/global.monstermaxhp[myself]))
 	global.monstersprite = sprite_index
 	//global.vaporspeed=0
-	//qqq = instance_create(x,y,obj_vaporizedspare)
 	ddd = instance_create(x,y,obj_spared)
 	ddd.image_speed = 0
 	ddd.image_index = 1
-	//qqq.image_speed = 0
-	//qqq.image_index = 1
 	global.flag[10]=1
 	}
 

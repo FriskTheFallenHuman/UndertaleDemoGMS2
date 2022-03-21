@@ -1,3 +1,2 @@
-y=yprevious
-vspeed=(-vspeed/1.2)
-
+y = yprevious
+vspeed = ((-vspeed) / 1.2)

@@ -1,2 +1,2 @@
-if global.turntimer < 1 then instance_destroy()
-
+if (global.turntimer < 1)
+    instance_destroy()

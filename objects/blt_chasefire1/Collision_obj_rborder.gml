@@ -1,3 +1,2 @@
-hspeed=-hspeed
-friction=0.04
-
+hspeed = (-hspeed)
+friction = 0.04

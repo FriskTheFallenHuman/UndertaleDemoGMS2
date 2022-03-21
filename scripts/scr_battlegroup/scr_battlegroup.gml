@@ -345,25 +345,6 @@ function scr_battlegroup() {
 	   global.msg[0]="* Toriel blocks the way!"
 	   global.monsterinstance[0] = instance_create(250,42,obj_torielboss)
 	   }
-   
-   
-	if global.battlegroup = 23 then //doge B
-	   {
-	   global.monstertype[0] = 13
-	   global.monstertype[1] = 0
-	   global.monstertype[2] = 0
-	   global.batmusic=caster_load("music/battle1.ogg")
-	   caster_loop(global.batmusic,0.5,1)
-	   global.msc=0
-	   global.battlelv=0
-	   global.actfirst=0
-	   global.extraintro=0
-	   global.msg[0]="* Doge appears."
-	   global.monsterinstance[0] = instance_create(216,38,obj_dogeB)
-	   }   
-   
+
 	global.turn = 0
-
-
-
 }

@@ -1,9 +1,8 @@
-if flashing=1 then
+if (flashing == 1)
 {
-if visible=1 then visible=0
-else visible=1
-
-alarm[0]=1
-
+    if (visible == true)
+        visible = false
+    else
+        visible = true
+    alarm[0] = 1
 }
-

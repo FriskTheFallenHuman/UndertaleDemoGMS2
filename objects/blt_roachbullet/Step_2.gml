@@ -1,3 +1,4 @@
-if hspeed<0 then image_angle=180
-if global.turntimer < 1 then instance_destroy()
-
+if (hspeed < 0)
+    image_angle = 180
+if (global.turntimer < 1)
+    instance_destroy()

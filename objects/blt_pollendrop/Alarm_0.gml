@@ -1,3 +1,2 @@
-hspeed=-hspeed
-alarm[0]=20
-
+hspeed = (-hspeed)
+alarm[0] = 20

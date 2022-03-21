@@ -1,4 +1,2 @@
-friction=0.08
-
-vspeed=-vspeed
-
+friction = 0.08
+vspeed = (-vspeed)

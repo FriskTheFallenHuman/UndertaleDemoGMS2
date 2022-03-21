@@ -1,3 +1,2 @@
-y-=6
-vspeed=-vspeed
-
+y -= 6
+vspeed = (-vspeed)

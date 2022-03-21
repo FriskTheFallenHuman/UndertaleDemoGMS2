@@ -1,10 +1,12 @@
-if sterile=0 then
+if (sterile == 0)
 {
-iii=instance_create(xstart,ystart,blt_hoopbullet1)
-iii.dmg=dmg
-iii.bullettype=2
-iii.gravity=gravitystart
-iii.gravity_direction=gravity_direction
-iii.sterile=1
+    iii = instance_create(xstart, ystart, blt_hoopbullet1)
+	with(iii)
+	{
+	    dmg = other.dmg
+	    bullettype = 2
+	    gravity = other.gravitystart
+	    gravity_direction = gravity_direction
+	    sterile = 1
+	}
 }
-

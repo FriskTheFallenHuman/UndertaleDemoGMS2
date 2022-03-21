@@ -1,2 +1,1 @@
-sprite_index=spr_tinypomwag
-
+sprite_index = spr_tinypomwag

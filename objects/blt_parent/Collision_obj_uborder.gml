@@ -1,2 +1,2 @@
-if vspeed < 0 then instance_destroy()
-
+if (vspeed < 0)
+    instance_destroy()

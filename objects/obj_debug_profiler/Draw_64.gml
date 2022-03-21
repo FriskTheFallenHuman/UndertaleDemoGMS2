@@ -1,11 +1,11 @@
-/// @description Draw our overlay
+///@description Draw our Overlay
 display_set_gui_size(-1, -1)
 
 var draw_color = c_white
 var texty = 10
 var filtered = gpu_get_texfilter()
 
-if (global.debug == true && overlay)
+if (overlay)
 {
     gpu_set_texfilter(false)
     draw_set_alpha(1)
@@ -134,10 +134,10 @@ if (global.debug == true && overlay)
             }
 
             draw_set_color(make_color_hsv(max(0, (127 * ((kill_max - kill_counter) / kill_max))), 255, 255))
-            text = (((((((string(global.encounter) + "/") + string(steps)) + " (") + object_get_name(object_index)) + ", ") + string(battlegroup)) + ")")
+            //text = (((((((string(global.encounter) + "/") + string(steps)) + " (") + object_get_name(object_index)) + ", ") + string(battlegroup)) + ")")
             if (kill_counter >= kill_max && kill_max > -1)
                 text = "But nobody came"
-            draw_text(10, texty, ((((text + " - ") + string(kill_counter)) + "/") + string(kill_max)))
+            //draw_text(10, texty, ((((text + " - ") + string(kill_counter)) + "/") + string(kill_max)))
             texty += 20
         }
         draw_set_color(draw_color)
@@ -173,7 +173,7 @@ if (global.debug == true && overlay)
     }
     gpu_set_texfilter(filtered)
 }
-if (global.debug == true && (!overlay))
+else
 {
     gpu_set_texfilter(false)
     draw_set_font(fnt_main)
@@ -182,5 +182,6 @@ if (global.debug == true && (!overlay))
     draw_set_halign(fa_left)
     gpu_set_texfilter(filtered)
 }
-if (global.debug && keyboard_check_pressed(vk_tab))
+
+if (keyboard_check_pressed(vk_tab))
     overlay = (!overlay)

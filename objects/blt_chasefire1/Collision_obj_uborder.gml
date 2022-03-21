@@ -1,4 +1,3 @@
-vspeed=-vspeed
-friction=0.04
-bounced=1
-
+vspeed = (-vspeed)
+friction = 0.04
+bounced = 1

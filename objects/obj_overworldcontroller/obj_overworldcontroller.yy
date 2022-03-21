@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_heartgtfo",
-    "path": "sprites/spr_heartgtfo/spr_heartgtfo.yy",
+    "name": "spr_heart",
+    "path": "sprites/spr_heart/spr_heart.yy",
   },
   "solid": false,
   "visible": true,
